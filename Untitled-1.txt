@@ -1,0 +1,145 @@
+
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 80px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+p {
+    font-size: 18px;
+    color: #999999 ;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+section {
+    padding: 120px 0;
+}
+
+.areaest-container {
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0;
+    border-radius: 2px;
+}
+
+.areaest-container img {
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+    filter: blur(1);
+    
+}
+
+.areaest-container:hover img {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    
+}
+
+.areaest-ditails {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    z-index:9000;
+}
+
+.areaest-ditails a h2, .areaest-ditails a p {
+    color: white;
+    background-color: slategray;
+    font-size: 25 ;
+    background: transparent; 
+}
+
+.areaest-ditails h2 {
+    margin-bottom: 0px;
+}
+
+
+.content-center {
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+}
+
+.g-light-grey {
+    background-color: #f5f5f5;
+}
+
+.logo-brand {
+    min-width: 180px;
+    max-width: 220px;
+}
+
+
+.navbar {
+    background-color: white;
+    box-shadow: 0 2px 4px 0 #3d3b3b;
+    min-height: 100px;
+}
+
+.navbar-toggler {
+    font-size: 40px;
+    color:#3d3b3b);
+}
+
+.navbar-toggler:focus {
+    outline:none
+}
+
+.nav-link {
+    color: #3d3b3b;
+}
+
+.nav-link:hover { color: #3d3b3b;}
+
+.topmargin-lg {
+margin-top: 60px;
+}
+
+.topmargin-sm {
+    margin-top: 30px;
+}
+
+ .topmargin-xs {
+    margin-top: 15px;
+ }
+
+
+#hero { 
+    background-image: url(img/Mujerb&N.jpg);
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 700px;
+    color: white;
+}
+
+#hero p {
+    color: white;
+}
+
+
+@media (max-width: 575.98px) { 
+    h1 { font-size: 40px;
+    line-height: normal;}
+ }
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+@media (min-width: 1200px) { ... }a
+
