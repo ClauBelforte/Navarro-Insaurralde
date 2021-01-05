@@ -1,3 +1,7 @@
+html {
+    overflow-x: hidden;
+}
+
 a:hover { text-decoration: none;
 
 }
@@ -222,7 +226,7 @@ margin-top: 60px;
 
 }
 
-@media (max-width: 575.98px) { 
+@media (max-width: 767px) { 
     h1 { font-size: 40px;
     line-height: normal;}
     .col-md-4 { margin-top: 15px;
